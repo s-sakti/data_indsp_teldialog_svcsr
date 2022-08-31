@@ -16,20 +16,18 @@ Table. The percentage of population according to 2000 Census (%A) vs the percent
 | Kalimantan |  5% |  2% | Banjar                                   |
 | Others     |  7% |  5% | Balinese, Ambonese, Tionghoa             |
 
-These utterances are equally split into training and test sets with 100 speakers (50 Females, 50 Males) in each set.
 
-
+The recording is conducted in parallel for both clean and telephone speech, but we open only the clean speech due to quality issues on telephone speech. Each audio file is a single-channel 16-bit PCM WAV with a sample rate of 16000 Hz. These utterances are equally split into training and test sets with 100 speakers (50 Females, 50 Males) in each set.
 
 ## File Format
 
 ```
-"FSK_K281KA.{wav,txt}" 
+"FHJ_U097.wav" 
 ```
 
 - Gender ID: F or M
 - Speaker ID: XX
-- Sentence: K281K = "Kosong Dua Delapan Satu Kosong"
-- ".wav" for speech and ".txt" for transcription
+- Utterance ID: UXXX (001-100) 
 
 ## License
 
