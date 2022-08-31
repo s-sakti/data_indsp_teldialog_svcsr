@@ -1,14 +1,10 @@
-# data_indsp_teldialog_svcsr
+# INDspeech_TELDIALOG_SVCSR
 
-# INDspeech_DIGIT_CDSR
-
-This is one of the first Indonesian speech datasets for connected digit speech recognition (CDSR). The data was developed by TELKOMRisTI (R&D Division, PT Telekomunikasi Indonesia) under the Asia-Pacific Telecommunity (APT) project. Although it was originally developed for a telecommunication system for hearing and speaking impaired people, it can be used for other applications, i.e., automatic call centers that recognize telephone numbers. 
+This is one of the first Indonesian speech datasets for small vocabulary continuous speech recognition (SVCSR). The data was developed by TELKOMRisTI (R&D Division, PT Telekomunikasi Indonesia) under the Asia-Pacific Telecommunity (APT) project. Although it was originally developed for a telecommunication system for hearing and speaking impaired people, it can be used for other applications, i.e., automatic call centers. Furthermore, as all speakers utter the same sentences, it can also be used for voice conversion tasks. 
 
 ## Text and Speech Resources
 
-The text consists of connected digit tasks among the following digit words: 1 (satu), 2 (dua), 3 (tiga), 4 (empat), 5 (lima), 6 (enam), 7 (tujuh), 8 (delapan), 9 (sembilan), 0 (nol and kosong). It is an adaptation of the official [English AURORA2 dataset](http://aurora.hsnr.de/aurora-2.html) for [noisy digit speech recognition tasks](http://dnt.kr.hsnr.de/aurora/download/asr2000_final_footer.pdf), which is also related to the Japanese version [AURORA2J](http://research.nii.ac.jp/src/en/CENSREC-1.html). So if you have these AURORA2 and AURORA2J, you will have an English-Japanese-Indonesian parallel dataset. [The parallel English-Japanese dataset with digit-emphasized version](http://www.phontron.com/pcbeu/) is also available. 
-
-The recording is conducted in parallel for both clean and telephone speech, but we open only the clean speech due to quality issues on telephone speech. Each audio file is a single-channel 16-bit PCM WAV with a sample rate of 16000 Hz. The speech is recorded with 214 speakers (20-40 years). Both genders are distributed evenly. The age is limited to middle age (20-40 years), but they present a wide range of spoken dialects from different ethnic groups.
+The text is based on a word vocabulary which is derived from some necessary dialog calls, such as dialog calls with the 119 emergency department, 108 telephone information department, and ticket reservation department. In total, it consists of 20,000 utterances (about 18 hours of speech) from the 70-word dialog vocabulary of 100 sentences (including single word sentences) each uttered by 200 speakers (100 Females, 100 Males). The age is limited to middle age (20-40 years), but they present a wide range of spoken dialects from different ethnic groups.
 
 Table. The percentage of population according to 2000 Census (%A) vs the percentage distribution of speakers in the corpus (%B). 
 
@@ -20,9 +16,9 @@ Table. The percentage of population according to 2000 Census (%A) vs the percent
 | Kalimantan |  5% |  2% | Banjar                                   |
 | Others     |  7% |  5% | Balinese, Ambonese, Tionghoa             |
 
-## Training and Test Dataset
+These utterances are equally split into training and test sets with 100 speakers (50 Females, 50 Males) in each set.
 
-As it is close to the official AURORA2 digit task, The data consists of 8440 training utterances (spoken by 55 Females, 55 Males) and 4004 testing utterances (spoken by 52 Females, 52 Males), which are equally split into four subsets (1001 utterances in each). These training and testing sets consist of about 8 and 4 hours of speech, respectively.
+
 
 ## File Format
 
