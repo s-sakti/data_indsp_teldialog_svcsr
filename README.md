@@ -1,4 +1,4 @@
-# INDspeech_TELDIALOG_SVCSR
+# INDspeech2: INDspeech_TELDIALOG_SVCSR
 
 This is the first Indonesian speech dataset for small vocabulary continuous speech recognition (SVCSR). The data was developed by TELKOMRisTI (R&D Division, PT Telekomunikasi Indonesia) under the Asia-Pacific Telecommunity (APT) project in 2004. Although it was originally developed for a telecommunication system for hearing and speaking impaired people, it can be used for other applications, i.e., automatic call centers. Furthermore, as all speakers utter the same sentences, it can also be used for voice conversion tasks. 
 
