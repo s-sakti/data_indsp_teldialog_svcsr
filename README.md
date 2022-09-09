@@ -8,13 +8,13 @@ The text is based on a word vocabulary which is derived from some necessary dial
 
 Table. The percentage of population according to 2000 Census (%A) vs the percentage distribution of speakers in the corpus (%B). 
 
-| Island     |  %A |  %B | Native Languages                         |
-| ---------- | --- | --- | ---------------------------------------- |
-| Java       | 60% | 67% | Sundanese,Javanese, Madurese, Indonesian |
-| Sumatra    | 21% | 21% | Acehnese,Lampung Batak, Minang, Malays   | 
-| Sulawesi   |  7% |  5% | Makassar,Minahasa, Bugis, Gorontalo      | 
-| Kalimantan |  5% |  2% | Banjar                                   |
-| Others     |  7% |  5% | Balinese, Ambonese, Tionghoa             |
+| Island     |  %A |  %B | Native Languages                          |
+| ---------- | --- | --- | ----------------------------------------- |
+| Java       | 60% | 67% | Sundanese, Javanese, Madurese, Indonesian |
+| Sumatra    | 21% | 21% | Acehnese, Lampung Batak, Minang, Malays   | 
+| Sulawesi   |  7% |  5% | Makassar, Minahasa, Bugis, Gorontalo      | 
+| Kalimantan |  5% |  2% | Banjar                                    |
+| Others     |  7% |  5% | Balinese, Ambonese, Tionghoa              |
 
 
 The recording is conducted in parallel for both clean and telephone speech, but we open only the clean speech due to quality issues on telephone speech. Each audio file is a single-channel 16-bit PCM WAV with a sample rate of 16000 Hz. These utterances are equally split into training and test sets with 100 speakers (50 Females, 50 Males) in each set.
